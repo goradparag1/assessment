@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(128, 128, 128, 0.218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 640px;
+    width: 463px;
+    background: white;
+    border-top: 6px solid orange;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: -3px;
+}
+
+.main {
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+/* email  */
+.fa-envelope{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 19px;
+}
+input[type='email']{
+    border: 1px solid #cccccc;
+    padding: 12px;
+    width: 325px;
+    margin-left: 40px;
+}
+.email i{
+    position: absolute;
+}
+
+/* password */
+.fa-lock{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 19px;
+    width: 19px;
+}
+input[type='password']{
+    border: 1px solid #cccccc;
+    padding: 12px;
+    width: 325px;
+    margin-left: 40px;
+}
+.password i{
+    position: absolute;
+}
+.password{
+    margin: 22px 0 22px 0;
+}
+/* Re-type password */
+.fa-lock{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 19px;
+    width: 19px;
+}
+input[type='password']{
+    border: 1px solid #cccccc;
+    padding: 12px;
+    width: 325px;
+    margin-left: 40px;
+}
+.Re-pwd i{
+    position: absolute;
+}
+/* First-name & Last-name */
+.fa-user{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 19px;
+    width: 19px;
+}
+input[type='text']{
+    border: 1px solid #cccccc;
+    padding: 12px;
+    width: 115px;
+    margin-left: 40px;
+}
+.firstname i{
+    position: absolute;
+}
+.lastname{
+    margin-left: 23px;
+}
+.firstname{
+    margin: 22px 0 22px 0;
+}
+/* Menubar */
+#select-country{
+    border: 1px solid #cccccc;
+    padding: 12px;
+    width: 392px;
+}
+.country{
+    margin: 22px 0 22px 0;
+}
+/* Register-button */
+#btn{
+    padding: 7px;
+    width: 392px;
+    font-size: 19px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.button{
+    margin-top: 22px;
+}
